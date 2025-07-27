@@ -1,0 +1,10 @@
+.\output\doorbell.o: src\doorbell.c
+.\output\doorbell.o: src\doorbell.h
+.\output\doorbell.o: C:\Keil\ARM\Inc\Philips\lpc24xx.h
+.\output\doorbell.o: src\lcd/lcd_hw.h
+.\output\doorbell.o: src\lcd/lcd_grph.h
+.\output\doorbell.o: src\lcd/lcd_cfg.h
+.\output\doorbell.o: src\lcd/sdram.h
+.\output\doorbell.o: src\delay.h
+.\output\doorbell.o: src\touch.h
+.\output\doorbell.o: src\songs.h

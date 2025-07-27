@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o ".\output\bubbles.o" --omf_browse ".\output\bubbles.crf" --depend ".\output\bubbles.d" "src\bubbles.c"

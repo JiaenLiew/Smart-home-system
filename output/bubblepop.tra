@@ -1,0 +1,26 @@
+*** Creating Trace Output File '.\output\bubblepop.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\delay.o"'
+### List of Objects: adding '".\output\doorbell.o"'
+### List of Objects: adding '".\output\touch.o"'
+### List of Objects: adding '".\output\sine_wave_data.o"'
+### List of Objects: adding '".\output\timer.o"'
+### List of Objects: adding '".\output\lpc2400.o"'
+### List of Objects: adding '".\output\font5x7.o"'
+### List of Objects: adding '".\output\lcd_grph.o"'
+### List of Objects: adding '".\output\lcd_hw.o"'
+### List of Objects: adding '".\output\sdram.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\output\main.o" ".\output\delay.o" ".\output\doorbell.o" ".\output\touch.o" ".\output\sine_wave_data.o" ".\output\timer.o" ".\output\lpc2400.o" ".\output\font5x7.o" ".\output\lcd_grph.o" ".\output\lcd_hw.o" ".\output\sdram.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --first=LPC2400.o(RESET) --bestdebug --arm_only --summary_stderr --info summarysizes -o ".\output\bubblepop.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\bubblepop.axf'
+### ADS-LD Command File: '.\output\bubblepop.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\bubblepop.lnp', Handle=0x00000788
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\bubblepop.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

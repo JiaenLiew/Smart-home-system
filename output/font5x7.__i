@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o ".\output\font5x7.o" --omf_browse ".\output\font5x7.crf" --depend ".\output\font5x7.d" "src\lcd\font5x7.c"

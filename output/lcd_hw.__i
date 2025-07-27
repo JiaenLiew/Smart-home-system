@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o ".\output\lcd_hw.o" --omf_browse ".\output\lcd_hw.crf" --depend ".\output\lcd_hw.d" "src\lcd\lcd_hw.c"

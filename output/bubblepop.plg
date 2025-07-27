@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Users\melanie\Desktop\desn2000\project\doorbell\project.uvproj
+Project File Date:  07/20/2025
+
+<h2>Output:</h2>
+Build target 'QVGA Base Board'
+linking...
+Program Size: Code=10980 RO-data=808 RW-data=20032 ZI-data=616  
+".\output\bubblepop.axf" - 0 Error(s), 0 Warning(s).
+Build target 'QVGA Base Board'
+linking...
+Program Size: Code=10980 RO-data=808 RW-data=20032 ZI-data=616  
+".\output\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'QVGA Base Board'
+compiling main.c...
+src\main.c(4): error:  #20: identifier "PINSEL1" is undefined
+src\main.c(6): error:  #20: identifier "FIO0DIR" is undefined
+src\main.c(9): warning:  #223-D: function "touch_init" declared implicitly
+src\main.c(10): warning:  #223-D: function "lcd_fillScreen" declared implicitly
+src\main.c(10): error:  #20: identifier "BLACK" is undefined
+src\main.c(11): warning:  #223-D: function "lcd_fontColor" declared implicitly
+src\main.c(11): error:  #20: identifier "WHITE" is undefined
+src\main.c(15): error:  #29: expected an expression
+src\main.c(15): error:  #20: identifier "d" is undefined
+src\main.c(18): warning:  #111-D: statement is unreachable
+compiling doorbell.c...
+src\doorbell.c(56): warning:  #223-D: function "touch_get_pressure" declared implicitly
+Target not created
+Build target 'QVGA Base Board'
+compiling main.c...
+src\main.c(19): error:  #29: expected an expression
+src\main.c(19): error:  #20: identifier "d" is undefined
+src\main.c(22): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'QVGA Base Board'
+compiling main.c...
+src\main.c(18): error:  #268: declaration may not appear after executable statement in block
+src\main.c(24): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'QVGA Base Board'
+compiling main.c...
+src\main.c(25): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=11060 RO-data=808 RW-data=20044 ZI-data=620  
+".\output\project.axf" - 0 Error(s), 1 Warning(s).
